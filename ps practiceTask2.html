@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./manuFavicon4.png">
+    
+<body>
+   
+
+    <pre><h1>
+        
+        1 . write a program to print reverse  of a number  by using while loop
+        
+        
+        2. write a program to check  whether input 2 is availble in input1
+        
+        input1: 108
+        input 2: 8
+        true
+        
+        input 1: 535
+        input 2: 6 
+        false
+        
+        3. write a program to check whether  a number  is event not by using switch statement
+        </h1> </pre>
+    
+
+<script>
+//1---> problem***********************************
+
+let n = +prompt("enter the any number :  ");
+let num = ""+n;
+let s = 0;
+for (i=num.length-1;i>=0;i--){
+    console.log(num[i])
+}
+//2---> problem***********************************
+let ip1 = +prompt("enter the any number :  ");
+let stringIp1 = ""+ip1;
+
+let ip2 = +prompt("enter the any number :  ");
+let stringIp2 = ""+ip2;
+
+for (i=0;i<stringIp1.length;i++){
+   c=stringIp1[i]===stringIp2
+    
+}
+console.log(c)
+
+//3---> problem***********************************
+
+let numers =  +prompt("enter the any number :  ");
+let y = numers%2;
+switch (y) {
+    case 0: console.log("the even number")  
+        break;
+        case 1: console.log("the odd number")  
+        break;
+    default:console.log("invalid enter positive number") 
+        break;
+}
+</script>
+
+</body>
+</html>
